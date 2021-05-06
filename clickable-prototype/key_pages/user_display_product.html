@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Shop</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+<input type="hidden" id="product_id" value="26">
+<div class="user-container">
+	<div class="user-header">
+		<li class="header-logo"><img src="assets/img/cart.gif"></li>
+		<li><a href="user_home_page.html">Mr_Bucks Shop</a></li>
+		<li><a class="cart" href="user_check_out.html">Your Cart <span id="cart_value"><span>(
+0 )</span></span></a></li>
+		<li class="admin-destroy"><a href="signin.html">Logoff</a></li>
+	</div>
+	<div class="display-container">
+		<a class="back-btn" href="/store_home"><img src="assets/img/back.png"><span>Go Back</span></a>
+		<div id="product_details">
+
+
+<div class="product-details">
+	<img class="main-image" src="assets/uploads/pic14.png">
+	<img class="second-image center" src="assets/uploads/pic44.png">
+	<img class="second-image" src="assets/uploads/pic531.png">
+	<img class="second-image" src="assets/uploads/pic11.png">
+	<img class="second-image" src="assets/uploads/pic411.png">
+
+	<h4 class="product-name">Bucks Wear</h4>
+	<h6 class="product-qty">Availablle Stocks: 10</h6>
+	<h4 class="product-price">$ 300</h4>
+</div>
+<div class="product-deatils-col2">
+	<p class="product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	<a id="add_to_cart" href="#"><div class="add-to-cart"><img src="assets/img/add-cart.gif"><span>Add To Cart</span></div></a>
+	<a id="buy_now" href="/check_out"><div class="buy-now"><img src="assets/img/buy-now.gif"><span>Buy Now</span></div></a>
+</div>
+
+<div class="related-products">
+	<h4>Related-Products</h4>
+	<div class="related-product-container">
+		<a href="/display_product/26">
+			<div class="related-products-display">
+				<img src="assets/uploads/pic44.png"> 
+				<h3 class="name">Bucks Wear</h3>
+				<h3 class="price">$ 300</h3>
+			</div>
+		</a>
+	</div>
+	<div class="related-product-container">
+		<a href="/display_product/25">
+			<div class="related-products-display">
+				<img src="assets/uploads/pic241.png"> 
+				<h3 class="name">New Style City</h3>
+				<h3 class="price">$ 350</h3>
+			</div>
+		</a>
+	</div>
+	<div class="related-product-container">
+		<a href="/display_product/24">
+			<div class="related-products-display">
+				<img src="assets/uploads/pic23.png"> 
+				<h3 class="name">Collge T-Buds</h3>
+				<h3 class="price">$ 150</h3>
+			</div>
+		</a>
+	</div>
+	<div class="related-product-container">
+		<a href="/display_product/21">
+			<div class="related-products-display">
+				<img src="assets/uploads/pic64.png"> 
+				<h3 class="name">Black T-Shit</h3>
+				<h3 class="price">$ 20</h3>
+			</div>
+		</a>
+	</div>
+	<div class="related-product-container">
+		<a href="/display_product/23">
+			<div class="related-products-display">
+				<img src="assets/uploads/pic31.png"> 
+				<h3 class="name">Dim-Tshirt</h3>
+				<h3 class="price">$ 300</h3>
+			</div>
+		</a>
+	</div>
+	<div class="related-product-container">
+		<a href="/display_product/27">
+			<div class="related-products-display">
+				<img src="assets/uploads/pic55.png"> 
+				<h3 class="name">Yow T-Shirt</h3>
+				<h3 class="price">$ 450</h3>
+			</div>
+		</a>
+	</div>
+</div>	
+
+<div class="bg-modal" id="modal">
+		<div class="content-modal">
+			<img src="assets/uploads/pic14.png">
+			<div class="product-details">
+				<h3 class="name">Bucks Wear</h3>
+				<h3 class="qty">available quantity: 10</h3>
+				<h3 class="price">Price: $300</h3>
+			</div>
+			<form method="post" action="#">
+				<input id="order_qty" class="quantity-box" type="number" name="order-quantity" placeholder="Enter the Quantity">
+				<input type="hidden" id="product_id" value="26">
+				<a id="add_to_cart_direct" href="#">
+					<div class="add-to-cart"><img src="assets/img/add-cart.gif">
+						<span>Add To Cart</span>
+					</div>
+				</a>
+				<span id="close">+</span>
+			</form>
+		</div>
+</div>	
+</div>
+	</div>
+</div>
+</body>
+</html>

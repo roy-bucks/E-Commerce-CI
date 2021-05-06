@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Shop</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+<div class="user-container">
+	<div class="user-header">
+		<li class="header-logo"><img src="assets/img/cart.gif"></li>
+		<li><a href="user_home_page.html">Mr_Bucks Shop</a></li>
+		<li><a href="user_check_out.html">Your Cart <span id="cart_value"><span>(
+0 )</span></span></a></li>
+		<li class="admin-destroy"><a href="signin.html">Logoff</a></li>
+	</div>
+	<div class="navigation-area">
+		<form method="post" action="/shops/search_user_products/0">
+			<input class="search-box" type="text" name="search" placeholder="Search">
+		</form>
+		<div class="category-section">
+			<h3>Categories</h3>
+			<div id="list">
+<ul>
+	<li id="all" class="category" style="background-color: red;"><a href="/shops/display/display_all" id="category_link" value="all">Display All</a></li>
+	<li id="Bags"><a href="/shops/display/Bags" id="category_link" value="Bags">Bags(2) </a></li>
+	<li id="Key-Chain"><a href="/shops/display/Key-Chain" id="category_link" value="Key-Chain">Key-Chain(2) </a></li>
+	<li id="Mugs"><a href="/shops/display/Mugs" id="category_link" value="Mugs">Mugs(1) </a></li>
+	<li id="Shoes"><a href="/shops/display/Shoes" id="category_link" value="Shoes">Shoes(2) </a></li>
+	<li id="T-Shirt"><a href="/shops/display/T-Shirt" id="category_link" value="T-Shirt">T-Shirt(7) </a></li>
+
+</ul>
+</div>
+		</div>
+	</div>
+	<div class="show-area">
+		<div class="sort-section">
+			<label>Sorted By</label>
+			<select id="sort_selection" name="sort_product">
+				<option value="default-selection">Select</option>
+				<option value="name"> Name</option>
+				<option value="price">Price</option>
+				<option value="created_at">Date</option>
+			</select>
+			<input type="hidden" name="active_category" id="on-show-category" value="all">
+		</div>
+			<div id="product-display">
+<div class="all-products-show">
+		<div class="product-show">
+		<a href="display_product/26">
+			<img src="assets/uploads/pic14.png"><br>
+			<label class="name">Bucks Wear</label><br>
+			<label class="price">$300</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/25">
+			<img src="assets/uploads/pic13.png"><br>
+			<label class="name">New Style City</label><br>
+			<label class="price">$350</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/24">
+			<img src="assets/uploads/pic12.png"><br>
+			<label class="name">Collge T-Buds</label><br>
+			<label class="price">$150</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/21">
+			<img src="assets/uploads/pic25.png"><br>
+			<label class="name">Black T-Shit</label><br>
+			<label class="price">$20</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/23">
+			<img src="assets/uploads/pic21.png"><br>
+			<label class="name">Dim-Tshirt</label><br>
+			<label class="price">$300</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/27">
+			<img src="assets/uploads/pic35.png"><br>
+			<label class="name">Yow T-Shirt</label><br>
+			<label class="price">$450</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/28">
+			<img src="assets/uploads/pic56.png"><br>
+			<label class="name">Skechers Shoes</label><br>
+			<label class="price">$1000</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/29">
+			<img src="assets/uploads/pic57.png"><br>
+			<label class="name">Running Shoes</label><br>
+			<label class="price">$2000</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/31">
+			<img src="assets/uploads/pic28.png"><br>
+			<label class="name">White Mugs</label><br>
+			<label class="price">$200</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/32">
+			<img src="assets/uploads/pic59.png"><br>
+			<label class="name">Travel Bag</label><br>
+			<label class="price">$300</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/33">
+			<img src="assets/uploads/pic510.png"><br>
+			<label class="name">Nike Bag</label><br>
+			<label class="price">$250</label>
+		</a>
+	</div>	
+		<div class="product-show">
+		<a href="display_product/34">
+			<img src="assets/uploads/pic10.png"><br>
+			<label class="name">Dojo Key Chain</label><br>
+			<label class="price">$200</label>
+		</a>
+	</div>	
+	 </div>
+
+<div class="page-section">
+				<div class="pagination">
+					<a class="pages" href="0">1</a>
+				</div>
+
+				<div class="pagination">
+					<a class="pages" href="12">2</a>
+				</div>
+
+</div>
+</div>
+
+	</div>
+</div>
+</body>
+</body>
+</html>
